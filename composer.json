@@ -1,0 +1,34 @@
+{
+  "name": "codicastudio/admin-excel",
+  "description": "A noobs worthless garbage, just learning.",
+  "keywords": [
+      "worthless garabage by a noob."
+  ],
+  "homepage": "https://github.com/codicastudio/admin-excel",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Michael J Brown",
+          "email": "codicastudiodev@gmail.com",
+          "homepage": "https://codicastudio.dev",
+          "role": "Developer"
+      }
+  ],
+  "require": {
+    "php": "^7.4.8",
+    "laravel/nova": "*",
+    "codicastudio/excel": "^1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "codicastudio\\LaravelNovaExcel\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "codicastudio\\LaravelNovaExcel\\LaravelNovaExcelServiceProvider"
+      ]
+    }
+  }
+}
